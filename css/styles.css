@@ -56,7 +56,9 @@
 
 .btn-outline-light{
 	transition: color .5s ease-in-out,
-				background-color .5s ease-in-out !important; 
+				background-color .5s ease-in-out !important;
+	border: 1px solid #f8f9fa;
+	outline: none;
 }
 
 
