@@ -108,6 +108,9 @@ p{
 	height: 35%;
 }
 
+.mini-row{
+	height: 5%;
+}
 .jumbotron{
 	height: 105vh;
 	width: auto;
