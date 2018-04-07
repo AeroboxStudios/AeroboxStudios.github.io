@@ -1,26 +1,26 @@
 /* FONTS */
 @font-face{
 	font-family: "Anurati";
-	src: url("/element-x/font/Anurati-Regular.otf");
+	src: url("/font/Anurati-Regular.otf");
 }
 
 @font-face{
 	font-family: "Exan";
-	src: url("/element-x/font/Exan-Regular.otf");	
+	src: url("/font/Exan-Regular.otf");	
 }
 
 @font-face {
 	font-family: "Vanadine";
-	src: url("/element-x/font/Vanadine.ttf");
+	src: url("/font/Vanadine.ttf");
 }
 @font-face {
 	font-family: "Khemala";
-	src: url("/element-x/font/Khemala.ttf");
+	src: url("/font/Khemala.ttf");
 }
 
 @font-face {
 	font-family: "Lane";
-	src: url("/element-x/font/Lane.ttf");
+	src: url("/font/Lane.ttf");
 }
 
 
