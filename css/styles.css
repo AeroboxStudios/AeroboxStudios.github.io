@@ -22,6 +22,10 @@
 	font-family: "Lane";
 	src: url("/font/Lane.ttf");
 }
+@font-face {
+	font-family: "Glober";
+	src: url("/font/Glober Thin Free.otf");
+}
 
 
 .anurati{
@@ -39,6 +43,14 @@
 
 .vanadine{
 	font-family: 'Vanadine';
+}
+
+.lane{
+	font-family: 'Lane';
+}
+
+.khemala{
+	font-family: 'Khemala'
 }
 
 /* 'text-center' is in bootstrap, does horizontal centering */
@@ -72,6 +84,11 @@ p{
 	font-size: 2.25rem;
 }
 
+.navbar{
+	font-weight: 600;
+	font-family: 'Glober';
+}
+
 @media (min-width: 576px) { /* same as navbar-expand-sm */
 
 	.nav-item{
@@ -91,7 +108,7 @@ p{
 		height: 0;
 		left: -8px;
 		right: -8px;
-		bottom: -16px;
+		bottom: -13px;
 	}
 	.nav-item.active::after{
 		content: "";
@@ -144,33 +161,33 @@ p{
 }
 
 .test1{
-	background-image: url(/images/1.jpg);
+	background-image: url(/images/1.png);
 }
 
 
 .test2{
-	background-image: url(/images/2.jpg);
+	background-image: url(/images/4_2.png);
 	background-position: 70% 40%, center;
 }
 
 .test3{
-	background-image: url(/images/3.jpg);
+	background-image: url(/images/3.png);
 }
 
 .test4{
-	background-image: url(/images/4.jpg);
+	background-image: url(/images/5.png);
 }
 
 .test5{
-	background-image: url(/images/5.jpg);
+	background-image: url(/images/6.png);
 }
 
 .test6{
-	background-image: url(/images/6.jpg);
+	background-image: url(/images/8.png);
 }
 
 .test7{
-	background-image: url(/images/7.jpg);
+	background-image: url(/images/7.png);
 }
 
 
