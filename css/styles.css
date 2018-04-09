@@ -125,9 +125,6 @@ p{
 	text-shadow:  0 0 10px white, 0 0 20px rgb(130, 36, 253), 0 0 40px rgb(130, 36, 253);
 }
 
-.size-full:first-of-type{
-	height: 100vh;
-}
 .size-full{
 	height: 105vh;
 	background-size: cover;
