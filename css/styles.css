@@ -22,6 +22,10 @@
 	font-family: "Lane";
 	src: url("/font/Lane.ttf");
 }
+@font-face {
+	font-family: "Glober";
+	src: url("/font/Glober Thin Free.otf");
+}
 
 
 .anurati{
@@ -41,6 +45,14 @@
 	font-family: 'Vanadine';
 }
 
+.lane{
+	font-family: 'Lane';
+}
+
+.khemala{
+	font-family: 'Khemala'
+}
+
 /* 'text-center' is in bootstrap, does horizontal centering */
 .text-center-y{
 	position: relative;
@@ -48,157 +60,162 @@
 	transform: translateY(-50%);	
 }
 
-/* Testing */
-
-.last{
-	padding-top: 15vh !important 
-}
-
-.btn-outline-light{
-	/*transition: color .5s ease-in-out,
-				background-color .5s ease-in-out !important;
-	*/
-	border: 1px solid #f8f9fa;
-	outline: none;
-}
-
-
-/**********/
-
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Vanadine';
 	color: white;
 }
 
 h1{
-	font-size: 10vw ;
+	font-size: 10rem;
 }
 
 h2{
-	font-size: 5vw;
+	font-size: 5rem;
 }
 
 body{
 	background-color: black;
 	color:white;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 }
 
 p{
-	font-size: 2.25vw;
-	margin-left: 15%;
-	padding-right: 15%;
+	font-size: 2.25rem;
 }
 
-
-.transparent{
-	background-color: rgba(0,0,0,0.85);
+.navbar{
+	font-weight: 600;
+	font-family: 'Glober';
 }
 
-.navbar-brand{
-	padding-bottom: 9px;
-}
+@media (min-width: 576px) { /* same as navbar-expand-sm */
 
+	.nav-item{
+		margin: 8px; /*Needed for accent bar positioning*/
+		padding: 0;
+		position: relative;
+	}
+
+	.nav-item .sr-only{
+		height: 0;
+	}
+
+	.nav-item::after{ /* Accent bar */
+		transition: all 0.5s ease;
+		position: absolute;
+		content: "";
+		height: 0;
+		left: -8px;
+		right: -8px;
+		bottom: -13px;
+	}
+	.nav-item.active::after{
+		content: "";
+		background-color: white;
+		height: 3px;
+	}
+}
 .text-white{
 	color: white;
 }
 
-
-.row{
-	height: 35%;
+.text-x{
+	color: rgba(255, 255, 255, 0.80);
+	text-shadow:  0 0 10px white, 0 0 20px rgb(130, 36, 253), 0 0 40px rgb(130, 36, 253);
 }
 
-.mini-row{
-	height: 10%;
-}
-.jumbotron{
+.size-full{
 	height: 105vh;
-	width: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	margin: 0% !important;
 }
 
-
-.container{
-	height: 100%;
-	padding-top: 7%;
-	margin: auto;
+.boxed{
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.6)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
 }
-
+@media (max-width: 992px) { 
+	.boxed-responsive{
+		background: rgba(0,0,0,0);
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.6)));
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+		background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+		background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+	}
+}
 .test0{
 	background-color: black;
 }
 
 .test1{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url(/images/1.jpg);
+	background-image: url(/images/1.png);
 }
 
 
 .test2{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/2.jpg);
+	background-image: url(/images/4_2.png);
+	background-position: 70% 40%, center;
 }
 
 .test3{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.7)), url(/images/3.jpg);
+	background-image: url(/images/3.png);
 }
 
 .test4{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(/images/4.jpg);
+	background-image: url(/images/5.png);
 }
 
 .test5{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(/images/5.jpg);
+	background-image: url(/images/6.png);
 }
 
 .test6{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/6.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/5.png);
 }
 
 .test7{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125)), url(/images/7.jpg);
+	background-image: url(/images/7.png);
 }
 
 
 .btn{
 	height: 50px;
-	width: 30vh;
-	margin: 2%;
+	width: 300px;
+	max-width: 80vw;
+	font-weight: 300;
 }
 
-
-.text-shadow{
-	text-shadow:  0 0 5px rgba(255,255,255,1) ,0 0 50px rgb(245,255,255) ;
+.btn-outline-light{
+	transition: color .25s ease-in-out,
+				background-color .25s ease-in-out !important; 
 }
 
-
-.box-shadow{
-	box-shadow: 0px 4px 3px rgba(0,0,0,0.5), 
-	0px 8px 13px rgba(0,0,0,0.1),
-	0px 18px 23px rgba(0,0,0,0.1); 
+.boxed-solid{
+	background: rgba(0,0,0,0.6);
 }
-
 
 .email{
-	padding: 10px 10px; 
-	line-height: 20px;
-	margin-top: 20px;
-	width: 60%;
+	padding: .5rem 1rem;
+	font-size: 1.25rem; 
+	line-height: 1.5;
+	width: 100%;
 	background-color: rgba(255,255,255,0.95); 
 	border: 0px solid;
-	border-radius: 5px;
+	border-radius: .3rem;
 }
 
 textarea:focus, input:focus{ 
 	outline: none; 
-}
-
-.button{
-	margin-top: 20px;
-	height: 50px;
-	width: 30vh;
 }
 
 input[type=submit] {
@@ -272,6 +289,7 @@ input[type=submit] {
 
 	.jumbotron{
 		height: 100vh;
+		max-height: 100vw;
 		-moz-background-size: 250vw 100vh;
 		-webkit-background-size: 250vw 100vh;
 		background-attachment: scroll;
