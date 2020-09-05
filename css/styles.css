@@ -98,8 +98,8 @@ ul {
 
 /* Custom styles */
 .game-link-logo{
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 }
 
 .logo-steam{
@@ -152,6 +152,7 @@ ul {
 	padding: 0.625rem 5%;
 	text-align: center;
 	margin-bottom: 2rem;
+	min-height: 250px;
 }
 
 .section.section--header{
@@ -390,6 +391,11 @@ input[type=submit] {
 		padding-left: 10%;
 		padding-right: 10%;
 	}
+
+	.game-link-logo{
+		width: 75px;
+		height: 75px;
+	}
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -418,6 +424,11 @@ input[type=submit] {
 	.section {
 		padding-left: 15%;
 		padding-right: 15%;
+	}
+
+	.game-link-logo{
+		width: 100px;
+		height: 100px;
 	}
 
 }
