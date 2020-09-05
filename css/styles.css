@@ -115,11 +115,29 @@ ul {
 	padding-right: 5%;
 }
 
+.video-container-container.video-container-container--header{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.header-details{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20%;
+	text-align: center;
+}
+
 .video-container {
 	position: relative;
 	width: 100%;
 	padding-bottom: 56.25%;
 	height: 0;
+}
+
+.video-container--header{
+	z-index: -1;
 }
 
 .video {
@@ -136,13 +154,18 @@ ul {
 	margin-bottom: 2rem;
 }
 
+.section.section--header{
+	padding: 0;
+	position: relative;
+}
+
 .section-title{
 	margin-bottom:  0.625rem;
 }
 
 /* Bootstrap Override */
 .fixed-top{
-	position: sticky;
+	/*position: sticky;*/
 }
 
 .navbar{
