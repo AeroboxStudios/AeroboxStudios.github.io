@@ -78,7 +78,9 @@ body{
 	font-family: 'Elegance';
 	font-weight: 100;
 	font-size: 16px;
-	min-height: 100vh;
+	min-height: 3600px;
+	background-image: url("/images/ElementX-v-bg.png");
+	background-size: cover;
 }
 
 p{
