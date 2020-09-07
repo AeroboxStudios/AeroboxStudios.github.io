@@ -79,7 +79,6 @@ body{
 	font-weight: 100;
 	font-size: 16px;
 	min-height: 3600px;
-	background-image: url("/images/ElementX-v-bg.png");
 	background-size: cover;
 }
 
@@ -158,6 +157,12 @@ ul {
 .section.section--header{
 	padding: 0;
 	position: relative;
+	margin-bottom: 0;
+}
+
+.section--body{
+	padding-top: 5rem;
+	background-image: url("/images/ElementX-v-bg.png");
 }
 
 .section-title{
