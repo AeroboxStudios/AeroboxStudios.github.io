@@ -149,6 +149,17 @@ ul {
 	height: 100%;
   }
 
+.screenshots {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.screenshots > img {
+	width: calc(50% - 1rem);
+	margin: 0.5rem;
+	box-sizing: content-box;
+}
+
 .section {
 	padding: 2rem 5% ;
 	text-align: center;
