@@ -72,13 +72,15 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: bold;
 }
 
+
+
 body{
 	background-color: black;
 	color:white;
 	font-family: 'Elegance';
 	font-weight: 100;
 	font-size: 16px;
-	min-height: 3600px;
+	min-height: 100%;
 	background-size: cover;
 }
 
@@ -148,10 +150,14 @@ ul {
   }
 
 .section {
-	padding: 0.625rem 5%;
+	padding: 2rem 5% ;
 	text-align: center;
 	margin-bottom: 2rem;
 	min-height: 250px;
+}
+
+.section:last-child{
+	margin-bottom: 0;
 }
 
 .section.section--header{
