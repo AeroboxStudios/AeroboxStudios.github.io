@@ -228,6 +228,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .navbar{
 	font-weight: 600;
 	font-family: 'Glober';
+	background-color: rgba(0,0,0,0.5);
 }
 
 @media (min-width: 576px) { /* same as navbar-expand-sm */
