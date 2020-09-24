@@ -100,13 +100,7 @@ ul {
 /* Custom styles */
 
 .game-title{
-	opacity: 0.75;
 	margin: 0;
-	/* text-shadow: 
-		-4px 2px 6px #f2f,
-		-4px -2px 6px #f2f,
-		4px 2px 4px #2ff,
-		4px -2px 4px #2ff; */
 }
 
 .game-sub-title{
@@ -125,8 +119,8 @@ ul {
 }
 
 .video-container-container{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: -5%;
+	padding-right: -5%;
 }
 
 .video-container-container.video-container-container--header{
@@ -177,7 +171,7 @@ ul {
 }
 
 .section {
-	padding: 2rem 5% ;
+	padding: 5rem 5% ;
 	text-align: center;
 	margin-bottom: 2rem;
 }
@@ -476,7 +470,7 @@ input[type=submit] {
 	}
 
 	.game-title{
-		font-size: 15rem;
+		font-size: 12rem;
 	}
 
 	.game-sub-title{
