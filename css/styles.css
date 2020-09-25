@@ -107,6 +107,11 @@ ul {
 	opacity: 0.75;
 }
 
+.social-media-logo{
+	width: 5rem;
+	height: 5rem;
+}
+
 .game-link-logo{
 	padding:  0.5rem 1rem;
 	background-color: white;
