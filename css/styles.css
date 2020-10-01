@@ -111,13 +111,13 @@ a, a:hover {
 }
 
 .game-sub-title{
-	opacity: 0.75;
+
 }
 
 .social-media-logo{
-	margin: 0 2rem;
-	width: 5rem;
-	height: 5rem;
+	margin: 0 1rem;
+	width: 3rem;
+	height: 3rem;
 }
 
 .game-link-logo{
@@ -228,6 +228,10 @@ a, a:hover {
 
 .section-title{
 	margin-bottom:  0.625rem;
+}
+
+.support {
+	text-align: right;
 }
 
 /* Bootstrap Override */
@@ -393,6 +397,12 @@ a, a:hover {
 
 	.section-title{
 		font-size: 3rem;
+	}
+
+	.social-media-logo{
+		margin: 0 2rem;
+		width: 5rem;
+		height: 5rem;
 	}
 
 }
