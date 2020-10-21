@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+
+.section--beachday{
+    position: relative;
+    min-height: 1000px;
+}
+
+.character-shadow{
+    z-index: 5;
+    left: 20px;
+}
+
+.character{
+    z-index: 10;
+    left: 0;
+}
+
+.character,
+.character-shadow{
+    height: 1000px;
+    width: auto;
+    position: absolute;
+}
+
+.character--right
+{
+    left: auto;
+    right: 0;
+}
+
+.character-shadow--right{
+    left: auto;
+    right: -20px;
+}
