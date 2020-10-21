@@ -1,9 +1,26 @@
+@font-face{
+	font-family: "Edo";
+	src: url("/font/edosz.ttf");	
+}
+
 body{
     background-color: white;
 }
 
 .header--beachdays{
     width: 100%;
+}
+
+.header-title--beachdays{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    transform: rotate(-18deg);
+
+    font-family: "Edo";
+    color: #ffeeba;
+    font-size: 115px;
+    text-shadow: 2px 2px #615e57;
 }
 
 .section--beachday{
