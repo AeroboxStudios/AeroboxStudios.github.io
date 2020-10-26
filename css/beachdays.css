@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: white;
+    background-color: #f8f8ff;
+    color: black;
 }
 
 .header--beachdays{
@@ -42,7 +43,7 @@ body{
 
 .character,
 .character-shadow{
-    height: 1000px;
+    height: 750px;
     width: auto;
     position: absolute;
 }
@@ -57,4 +58,36 @@ body{
     left: auto;
     right: 0px;
     
+}
+
+.character-name{
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    font-size: 62px;
+}
+
+.character-name--right{
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    font-size: 62px;
+}
+
+.character-description{
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    font-size: 36px;
+    padding: 25px 50px;
+    margin: 25px 100px;
+
+    background-color: rgba(51, 184, 218, 0.75);
+    z-index: 0;
+}
+
+.character-description--right{
+    right: 350px;
+    left: auto;
+    background-color: rgba(202, 90, 236, 0.75);
 }
