@@ -8,6 +8,45 @@ body{
     color: black;
 }
 
+#araara{
+    background-image: url("/images/dlc/beachdays/characters/test.png");
+
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nekoneko{
+    background-image: url("/images/dlc/beachdays/characters/neko-test.png");
+
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tsuntsun{
+    background-image: url("/images/dlc/beachdays/characters/tsundure-test.png");
+
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header--beachdays{
     width: 100%;
 }
